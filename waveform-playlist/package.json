@@ -1,0 +1,168 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "waveform-playlist@^3.0.4",
+        "scope": null,
+        "escapedName": "waveform-playlist",
+        "name": "waveform-playlist",
+        "rawSpec": "^3.0.4",
+        "spec": ">=3.0.4 <4.0.0",
+        "type": "range"
+      },
+      "/Users/alexanderleon/meteor_projects/auth_app"
+    ]
+  ],
+  "_from": "waveform-playlist@>=3.0.4 <4.0.0",
+  "_id": "waveform-playlist@3.0.4",
+  "_inCache": true,
+  "_location": "/waveform-playlist",
+  "_nodeVersion": "7.7.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/waveform-playlist-3.0.4.tgz_1499603816098_0.10626411624252796"
+  },
+  "_npmUser": {
+    "name": "naomiaro",
+    "email": "naomiaro@gmail.com"
+  },
+  "_npmVersion": "4.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "waveform-playlist@^3.0.4",
+    "scope": null,
+    "escapedName": "waveform-playlist",
+    "name": "waveform-playlist",
+    "rawSpec": "^3.0.4",
+    "spec": ">=3.0.4 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/waveform-playlist/-/waveform-playlist-3.0.4.tgz",
+  "_shasum": "ee40b16aba78f1f1e643ee5213277afc50df8746",
+  "_shrinkwrap": null,
+  "_spec": "waveform-playlist@^3.0.4",
+  "_where": "/Users/alexanderleon/meteor_projects/auth_app",
+  "author": {
+    "name": "Naomi Aro"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/naomiaro/waveform-playlist/issues"
+  },
+  "dependencies": {
+    "event-emitter": "^0.3.4",
+    "fade-curves": "^1.0.2",
+    "fade-maker": "^1.0.3",
+    "inline-worker": "^1.1.0",
+    "lodash.assign": "^4.0.0",
+    "lodash.defaults": "^4.0.0",
+    "lodash.forown": "^4.0.0",
+    "mucss": "^1.1.5",
+    "uuid": "^2.0.1",
+    "virtual-dom": "^2.1.1",
+    "webaudio-peaks": "^0.0.6"
+  },
+  "description": "Multiple track web audio editor and player with waveform preview",
+  "devDependencies": {
+    "@mohayonao/web-audio-api-shim": "^0.3.0",
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "coveralls": "^2.11.4",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "gh-pages": "^0.11.0",
+    "istanbul": "^0.4.1",
+    "karma": "^0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-chai-as-promised": "^0.1.2",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.1",
+    "karma-nyan-reporter": "^0.2.2",
+    "karma-requirejs": "^0.2.2",
+    "karma-sourcemap-loader": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.4",
+    "requirejs": "^2.1.22",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "css": "styles"
+  },
+  "dist": {
+    "shasum": "ee40b16aba78f1f1e643ee5213277afc50df8746",
+    "tarball": "https://registry.npmjs.org/waveform-playlist/-/waveform-playlist-3.0.4.tgz"
+  },
+  "gitHead": "0f98bec431fca8b2b09f1448887d2c629a73bb7f",
+  "homepage": "http://naomiaro.github.io/waveform-playlist",
+  "keywords": [
+    "waveform",
+    "audio",
+    "audacity",
+    "stem",
+    "tracks",
+    "multitrack",
+    "playlist",
+    "music",
+    "editor",
+    "record",
+    "recording",
+    "player",
+    "webaudio"
+  ],
+  "license": "MIT",
+  "main": "lib/app.js",
+  "maintainers": [
+    {
+      "name": "naomiaro",
+      "email": "naomiaro@gmail.com"
+    }
+  ],
+  "name": "waveform-playlist",
+  "optionalDependencies": {},
+  "readme": "Waveform Playlist\n=================\n\nInspired by [Audacity](http://audacity.sourceforge.net/), this project is a multiple track playlist editor written in ES2015 using the [Web Audio API](http://webaudio.github.io/web-audio-api/).\n\n[![npm](https://img.shields.io/npm/dm/waveform-playlist.svg)](https://www.npmjs.com/package/waveform-playlist)\n[![Build Status](https://travis-ci.org/naomiaro/waveform-playlist.svg)](https://travis-ci.org/naomiaro/waveform-playlist)\n[![Coverage Status](https://coveralls.io/repos/naomiaro/waveform-playlist/badge.svg?branch=master&service=github)](https://coveralls.io/github/naomiaro/waveform-playlist?branch=master)\n\nLoad tracks and set cues (track cue in, cue out), fades (track fade in, fade out) and track start/end times within the playlist.\nI've written up some demos on github for the different [audio fade types](https://github.com/naomiaro/Web-Audio-Fades) in the project.\n\n- [See examples in action](http://naomiaro.github.io/waveform-playlist)\n- [Try out the waveform editor!](http://naomiaro.github.io/waveform-playlist/web-audio-editor.html)\n\n![Screenshot](img/stemtracks.png?raw=true \"stem tracks mute solo volume control\")\n(code for picture shown can be found in ghpages/_examples/04stemtracks.html)\n\n![Screenshot](img/annotations.png?raw=true \"Aeneas annotations adjust alignment json export\")\n(code for picture shown can be found in ghpages/_examples/13annotations.html)\n\n\n## Browser Support\n\nWaveform Playlist requires webaudio in the browser to function correctly: [Can I Use?](http://caniuse.com/#search=webaudio)\n\n\n## Installation\n\n`npm install waveform-playlist`\n\n\n* If you want to download and run the already compiled website, navigate to folder `/dist` and run `python -m SimpleHTTPServer 8000`. The website will be available at `localhost:8000/waveform-playlist`.\n\n\n## Basic Usage\n\nStarter styles can be found in the npm package download at `waveform-playlist/styles/playlist.scss`\n\n```javascript\nvar WaveformPlaylist = require('waveform-playlist');\n\nvar playlist = WaveformPlaylist.init({\n  samplesPerPixel: 3000,\n  mono: true,\n  waveHeight: 70,\n  container: document.getElementById('playlist'),\n  state: 'cursor',\n  colors: {\n    waveOutlineColor: '#E0EFF1',\n    timeColor: 'grey',\n    fadeColor: 'black'\n  },\n  controls: {\n    show: true,\n    width: 200\n  },\n  zoomLevels: [500, 1000, 3000, 5000]\n});\n\nplaylist.load([\n  {\n    src: 'media/audio/Vocals30.mp3',\n    name: 'Vocals',\n    gain: 0.5,\n  },\n  {\n    src: 'media/audio/BassDrums30.mp3',\n    name: 'Drums',\n    start: 8.5,\n    fadeIn: {\n      duration: 0.5,\n    },\n    fadeOut: {\n      shape: 'logarithmic',\n      duration: 0.5,\n    },\n  },\n  {\n    src: 'media/audio/Guitar30.mp3',\n    name: 'Guitar',\n    start: 23.5,\n    fadeOut: {\n      shape: 'linear',\n      duration: 0.5,\n    },\n    cuein: 15,\n  }\n]).then(function() {\n  // can do stuff with the playlist.\n});\n```\n\n### Playlist Options\n\n```javascript\nvar options = {\n\n  // webaudio api AudioContext\n  ac: new (window.AudioContext || window.webkitAudioContext),\n\n  // DOM container element REQUIRED\n  container: document.getElementById('playlist'),\n\n  // sample rate of the project. (used for correct peaks rendering)\n  sampleRate: new (window.AudioContext || window.webkitAudioContext).sampleRate,\n\n  // number of audio samples per waveform peak.\n  // must be an entry in option: zoomLevels.\n  samplesPerPixel: 4096,\n\n  // whether to draw multiple channels or combine them.\n  mono: true,\n\n  // enables \"exclusive solo\" where solo switches between tracks\n  exclSolo: false,\n\n  // default fade curve type.\n  fadeType: 'logarithmic', // (logarithmic | linear | sCurve | exponential)\n\n  // whether or not to include the time measure.\n  timescale: false,\n\n  // control panel on left side of waveform\n  controls: {\n    // whether or not to include the track controls\n    show: false,\n\n    // width of controls in pixels\n    width: 150,\n  },\n\n  colors: {\n    // color of the wave background\n    waveOutlineColor: 'white',\n\n    // color of the time ticks on the canvas\n    timeColor: 'grey',\n\n    // color of the fade drawn on canvas\n    fadeColor: 'black',\n  },\n\n  // height in pixels of each canvas element a waveform is on.\n  waveHeight: 128,\n\n  // interaction state of the playlist\n  // (cursor | select | fadein | fadeout | shift)\n  state: 'cursor',\n\n  // (line | fill)\n  seekStyle : 'line',\n\n  // Array of zoom levels in samples per pixel.\n  // Smaller numbers have a greater zoom in.\n  zoomLevels: [512, 1024, 2048, 4096],\n\n  // Whether to automatically scroll the waveform while playing\n  isAutomaticScroll: false,\n\n  // configuration object for the annotations add on.\n  annotationList: {\n\n    // Array of annotations in [Aeneas](https://github.com/readbeyond/aeneas) JSON format\n    annotations: [],\n\n    // Whether the annotation texts will be in updateable contenteditable html elements\n    editable: false,\n\n    // User defined functions which can manipulate the loaded annotations\n    controls: [{\n      // class names for generated <i> tag separated by '.'\n      class: 'fa.fa-minus',\n\n      // title attribute for the generated <i> tag\n      title: 'Reduce annotation end by 0.010s',\n\n      // function which acts on the given annotation row\n      // when the corresponding <i> is clicked.\n      action: (annotation, i, annotations, opts) => {\n\n        // @param Object annotation - current annotation\n        // @param Number i - index of annotation\n        // @param Array annotations - array of annotations in the playlist\n        // @param Object opts - configuration options available\n        //      - opts.linkEndpoints\n\n      }\n    }],\n\n    // If false when clicking an annotation id segment\n    // playback will stop after segment completion.\n    isContinuousPlay: false,\n\n    // If true annotation endpoints will remain linked when dragged\n    // if they were the same value before dragging started.\n    linkEndpoints: false,\n  }\n};\n```\n\n### Track Options\n\n```javascript\n{\n  // a media path for XHR or a File object.\n  src: 'media/audio/BassDrums30.mp3',\n\n  // name that will display in the playlist control panel.\n  name: 'Drums',\n\n  // volume level of the track between [0-1]\n  gain: 1,\n\n  // whether the track should initially be muted.\n  muted: false,\n\n  // whether the track should initially be soloed.\n  soloed: false,\n\n  // time in seconds relative to the playlist\n  // ex (track will start after 8.5 seconds)\n  // DEFAULT 0 - track starts at beginning of playlist\n  start: 8.5,\n\n  // track fade in details\n  fadeIn: {\n    // fade curve shape\n    // (logarithmic | linear | sCurve | exponential)\n    shape: 'logarithmic',\n\n    // length of fade starting from the beginning of this track, in seconds.\n    duration: 0.5,\n  },\n\n  // track fade out details\n  fadeOut: {\n    // fade curve shape\n    // (logarithmic | linear | sCurve | exponential)\n    shape: 'logarithmic',\n\n    //length of fade which reaches the end of this track, in seconds.\n    duration: 0.5,\n  }\n\n  // where the waveform for this track should begin from\n  // ex (Waveform will begin 15 seconds into this track)\n  // DEFAULT start at the beginning - 0 seconds\n  cuein: 15,\n\n  // where the waveform for this track should end\n  // ex (Waveform will end at 30 second into this track)\n  // DEFAULT duration of the track\n  cueout: 30,\n\n  // custom class for unique track styling\n  customClass: 'vocals',\n\n  // custom background-color for the canvas-drawn waveform\n  waveOutlineColor: '#f3f3f3',\n\n  // interaction states allowed on this track.\n  // DEFAULT - all true\n  states: {\n    cursor: true,\n    fadein: true,\n    fadeout: true,\n    select: true,\n    shift: true,\n  },\n\n  // pre-selected section on track.\n  // ONLY ONE selection is permitted in a list of tracks, will take most recently set if multiple passed.\n  // This track is marked as 'active'\n  selected: {\n    // start time of selection in seconds, relative to the playlist\n    start: 5,\n\n    // end time of selection in seconds, relative to the playlist\n    end: 15,\n  },\n}\n```\n\n### Playlist Events\n\nWaveform Playlist uses an instance of [event-emitter](https://www.npmjs.com/package/event-emitter) to send & receive messages from the playlist.\n\n```javascript\nvar EventEmitter = require('event-emitter');\nvar WaveformPlaylist = require('waveform-playlist');\n\nvar playlist = WaveformPlaylist.init(\n  {\n    container: document.getElementById('playlist'),\n  },\n\n  // you can pass your own event emitter\n  EventEmitter(),\n);\n\n// retrieves the event emitter the playlist is using.\nvar ee = playlist.getEventEmitter();\n```\n\nAn example of using the event emitter to control the playlist can be found in [/dist/js/examples/emitter.js](https://github.com/naomiaro/waveform-playlist/blob/master/dist/js/examples/emitter.js)\n\n#### Events to Invoke\n\n| event | arguments | description |\n| --- | --- | --- |\n| `play` | `start:optional, end:optional` | Starts playout of the playlist. Takes optional Number parameters in seconds `start` and `end` to play just an audio segment. `start` can be passed without an `end` to play to the end of the track. |\n| `pause` | _none_ | Pauses playout of the playlist. |\n| `stop` | _none_ | Stops playout of the playlist. |\n| `rewind` | _none_ | Stops playout if playlist is playing, resets cursor to the beginning of the playlist. |\n| `fastforward` | _none_ | Stops playout if playlist is playing, resets cursor to the end of the playlist. |\n| `clear` | _none_ | Stops playout if playlist is playing, removes all tracks from the playlist. |\n| `record` | _none_ | Starts recording an audio track. Begins playout of other tracks in playlist if there are any. |\n| `zoomin` | _none_ | Changes zoom level to the next smallest entry (if one exists) from the array `zoomLevels`. |\n| `zoomout` | _none_ | Changes zoom level to the next largest entry (if one exists) from the array `zoomLevels`. |\n| `trim` | _none_ | Trims currently active track to the cursor selection. |\n| `statechange` | (`cursor | select | fadein | fadeout | shift`) | Changes interaction state to the state given. |\n| `fadetype` | (`logarithmic | linear | sCurve | exponential`) | Changes playlist default fade type. |\n| `newtrack` | `File` | Loads `File` object into the playlist. |\n| `volumechange` | `volume, track` | Set volume of `track` to `volume` (0-100) |\n| `mastervolumechange` | `volume` | Set a new master volume `volume` (0-100) |\n| `select` | `start, end, track:optional` | Seek to the start time or start/end selection optionally with active track `track`. |\n| `startaudiorendering` | (`wav | buffer`) | Request for a downloadable file or web Audio buffer that represent the current work |\n| `automaticscroll` | `true`/`false` | Change property `isAutomaticScroll`. |\n| `continuousplay` | `true`/`false` | Change property `isContinuousPlay`.|\n| `linkendpoints` | `true`/`false` | Change property `linkEndpoints`.|\n| `annotationsrequest` | _none_ | Requests to download the annotations to a json file. |\n\n\n#### Events to Listen to\n\n| event | arguments | description |\n| --- | --- | --- |\n| `select` | `start, end, track` | Cursor selection has occurred from `start` to `end` with active Track `track`. |\n| `timeupdate` | `playbackPosition` | Sends current position of playout `playbackPosition` in seconds. |\n| `scroll` | `scrollLeft` | Sends current position of scroll `scrollLeft` in seconds. |\n| `statechange` | `state` | Sends current interaction state `state`. |\n| `shift` | `deltaTime, track` | Sends `deltaTime` in seconds change for Track `track` |\n| `mute` | `track` | Mute button has been pressed for `track` |\n| `solo` | `track` | Solo button has been pressed for `track` |\n| `volumechange` | `volume, track` | Volume of `track` has changed to `volume` (0-100) |\n| `mastervolumechange` | `volume` | Master volume of the playlist has changed to `volume` (0-100) |\n| `audiorequeststatechange` | `state, src` | Loading audio `src` (`string` or `File`) is now in state [`state`](https://github.com/naomiaro/waveform-playlist/wiki/Track-Loading-States) (Number) |\n| `loadprogress` | `percent, src` | Loading audio `src` has loaded percent `percent` (0-100) |\n| `audiosourcesloaded` | _none_ | Audio decoding has finished for all tracks |\n| `audiosourcesrendered` | _none_ | Tracks are rendered to the playlist |\n| `finished` | _none_ | Event fired when cursor ( while playing ) reaches the end (maximum duration) |\n| `audiorenderingfinished` | `type, data` | Return the result of the rendering in the desired format. `type` can be `buffer` or `wav` and can be used to dertermine the  `data` type. When `type` is `wav`, data is a `blob` object that represent the wav file. |\n\n## Tests\n\n  `npm test`\n\n## Development without example changes\n\n  `npm install && npm start`\n\n  This will install dependencies and start the webpack server.\n\n\n## Development with example changes\n\n  `gem install jekyll`\n\n  Jekyll is needed if changes to the example pages will be done.\n\n  `npm install && npm run dev`\n\n  This will build and watch the jekyll site and startup the webpack dev server.\n\n\n## Credits\n\nOriginally created for the [Airtime](https://www.sourcefabric.org/en/airtime/) project at [Sourcefabric](https://www.sourcefabric.org/)\n\n\nThe annotation plugin has been sponsored by a fond Italian TED volunteer transcriber, hoping to make easier and more fun the transcription process of TEDx talks.\n\n\n## License\n\n[MIT License](http://doge.mit-license.org)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naomiaro/waveform-playlist.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run jekyll && webpack",
+    "clean": "rm -Rf dist && rm -Rf lib && rm -Rf styles",
+    "compile": "babel src --out-dir lib",
+    "dev": "npm run jekyll:dev && npm run webpack:server",
+    "eslint": "eslint src",
+    "ghpages": "gh-pages --repo https://$GH_TOKEN@github.com/naomiaro/waveform-playlist.git -d dist/waveform-playlist",
+    "jekyll": "jekyll build -s ghpages -d dist/waveform-playlist",
+    "jekyll:dev": "jekyll build -s ghpages -d dist/waveform-playlist --watch &",
+    "postversion": "git push && git push --tags",
+    "prepublish": "npm run compile && npm run styles",
+    "preversion": "npm run clean",
+    "start": "npm run webpack:server",
+    "styles": "mkdir -p styles && cp ghpages/_sass/_playlist.scss styles/playlist.scss",
+    "test": "node_modules/karma/bin/karma start --browsers Firefox --single-run",
+    "version": "npm run build && git add -A dist",
+    "webpack:server": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base dist/ --colors --host 0.0.0.0 --inline"
+  },
+  "version": "3.0.4",
+  "website": "http://naomiaro.github.io"
+}

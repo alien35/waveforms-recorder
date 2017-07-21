@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "waveforms-recorder",
+        "scope": null,
+        "escapedName": "waveforms-recorder",
+        "name": "waveforms-recorder",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      }
+    ]
+  ],
+  "_from": "waveforms-recorder@latest",
+  "_inCache": true,
+  "_location": "/waveform-playlist",
+  "_nodeVersion": "7.7.1",
+  "_npmUser": {
+    "name": "alien35",
+    "email": "alexjleon16@gmail.com"
+  },
+  "_npmVersion": "0.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "waveforms-recorder",
+    "scope": null,
+    "escapedName": "waveforms-recorder",
+    "name": "waveforms-recorder",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_shrinkwrap": null,
+  "author": "Alexander Leon",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "dependencies": {
+    "event-emitter": "^0.3.4",
+    "fade-curves": "^1.0.2",
+    "fade-maker": "^1.0.3",
+    "inline-worker": "^1.1.0",
+    "lodash.assign": "^4.0.0",
+    "lodash.defaults": "^4.0.0",
+    "lodash.forown": "^4.0.0",
+    "mucss": "^1.1.5",
+    "uuid": "^2.0.1",
+    "virtual-dom": "^2.1.1",
+    "webaudio-peaks": "^0.0.6"
+  },
+  "description": "Export numerous audio tracks in .WAV format",
+  "devDependencies": {
+    "@mohayonao/web-audio-api-shim": "^0.3.0",
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "coveralls": "^2.11.4",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "gh-pages": "^0.11.0",
+    "istanbul": "^0.4.1",
+    "karma": "^0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-chai-as-promised": "^0.1.2",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.1",
+    "karma-nyan-reporter": "^0.2.2",
+    "karma-requirejs": "^0.2.2",
+    "karma-sourcemap-loader": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.4",
+    "requirejs": "^2.1.22",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "waveform",
+    "audio",
+    "stem",
+    "tracks",
+    "multitrack",
+    "playlist",
+    "music",
+    "editor",
+    "record",
+    "recording",
+    "player",
+    "webaudio"
+  ],
+  "license": "MIT",
+  "main": "lib/app.js",
+  "maintainers": [
+    "alien35 <alexjleon16@gmail.com>"
+  ],
+  "name": "waveforms-recorder",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alien35/waveforms-recorder.git"
+  },
+  "version": "0.1.0",
+  "bugs": {
+    "url": "https://github.com/alien35/waveforms-recorder/issues"
+  },
+  "homepage": "https://github.com/alien35/waveforms-recorder#readme"
+}
